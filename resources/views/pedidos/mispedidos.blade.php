@@ -3,7 +3,7 @@
     <div class="container mx-auto py-44">
     <div class="w-5/6  mx-auto p-6 bg-white  rounded-lg shadow  ">
         <a href="#">
-            <h5 class="mb-2 text-center text-3xl  tracking-tight text-gray-900">Lista de pedidos</h5>
+            <h5 class="mb-2 text-center text-3xl  tracking-tight text-gray-900">Mis pedidos</h5>
         </a>
 
         @if (session('mensaje'))

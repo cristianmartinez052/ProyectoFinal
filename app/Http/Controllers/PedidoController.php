@@ -47,7 +47,7 @@ class PedidoController extends Controller
     {
         //
         $detalle = detallePedido::orderBy('id', 'desc')->where('pedido_id', '=', $pedido->id)->get();
-
+        
         return view('pedidos.detalle', compact('detalle', 'pedido'));
     }
 
